@@ -1,0 +1,200 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(161, 203, 139); font-size: 20px;
+    
+}
+body {
+    width:100%;
+    height:auto;
+    
+}
+nav,.fourscreen,  .main, .firstmain,
+.rightfirstmain, .secondmain, .lastmain {
+    display:flex;
+}
+nav {height:70px; display: flex;
+}
+.navleft { display:flex; gap:20px; align-items: center; margin-left:30px;}
+.navright { display:flex; gap:20px; align-items: center;
+    margin-left:auto; background:  rgb(28, 28, 60);
+}
+.navehover:hover, .heading:hover {color:  rgb(140, 127, 67);}
+
+#logo{
+    border-radius: 50%;
+    width:50px; height:50px;
+    background-color: rgb(140, 127, 67);
+    margin-right:30px;
+}
+/* .fourscreen {
+    display:flex; flex-wrap:wrap; justify-content: space-around;  align-items: center;
+    width:100%; height:auto; padding-top:10px; 
+    padding-bottom:10px; background-color: rgb(49, 52, 77);
+}
+.screen {display:flex; 
+    justify-content: space-evenly; flex-direction: column;
+    height:auto; padding-top:30px; padding-bottom:50px; 
+    width:24%;  min-width:300px;
+} */
+.screen:hover, .mytable:hover, .piechart:hover, #chart:hover,
+ .secondmainone:hover, .secondmaintwo:hover, .rightsecondmain:hover {
+    background-color: rgb(35, 35, 80);
+}
+
+/* .screendot {display:flex; justify-content: space-evenly;} */
+
+.dotsingle {width:250px; height:30px; border-radius: 2%;
+    border:1px solid rgb(111, 139, 97);
+}
+.dotsingle:hover {
+    box-shadow:4px 3px  15px rgb(161, 203, 139);
+    border:2px solid rgb(161, 203, 139);
+}
+p {text-align: center;}
+
+.allmain {display: flex; flex-wrap:wrap; }
+
+.rightside { display:flex; justify-content: flex-start; 
+    flex-direction: column; width:50%; min-width:650px;
+    background-color: rgb(49, 52, 77);
+}
+
+.highlight {display: flex; flex-direction: column; justify-content: space-evenly;
+    margin-top:10px; height:600px; align-items: center;}
+.corereport {width:200px; height:200px; border-radius: 10%;
+background-color: rgb(66, 106, 152); margin-right:50px;}
+
+.main {display: flex; flex-direction:column; 
+    background-color: rgb(49, 52, 77);
+    width:50%; height:auto;  min-width:650px; 
+}
+.mainthree {
+    display: flex; flex-direction:column; 
+    align-items: center;
+}
+
+
+/* .firstmain { display:flex; 
+    justify-content: space-around;
+    
+    width:100%; min-width:610px; height: 300px; } */
+
+
+/* #chart { width:32%; height:300px; margin-left:20px;} */
+
+.leftsecondmain {
+    display:flex;
+    flex-direction: column;  justify-content:center; 
+    }
+
+/* .rightfirstmain {display:flex; flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+    min-width:400px;
+     width:68%;} */
+
+/* .rightfirstmaincube{
+    width:100px; height:100px; background-color: rgb(161, 203, 139);
+} */
+
+
+.secondmain {display:flex; justify-content: center;
+     min-width:auto; width:70%;
+margin:30px 30px 30px;}
+
+.leftsecondmain { width:80%; height:auto;
+    display: flex; flex-direction:column; 
+    justify-content: space-between; }
+.secondmainone, .secondmaintwo {
+    background:  rgb(28, 28, 60);
+    height:75px;  
+}
+.secondmainone{
+    border-bottom:2px solid  rgb(66, 152, 69);
+}
+
+
+.rightsecondmain { width:20%; display:flex; align-items: end;
+    justify-content: space-evenly; 
+    background-color: rgb(66, 152, 69);}
+
+ .highlight {
+    background-color: rgb(161, 203, 139);
+}
+
+nav,.screen, .mytable,.piechart
+ {
+    background-color: rgb(28, 28, 60);
+}
+
+.tablechildleft { display:flex; flex-direction: column; width:30%;
+    justify-content: space-evenly; margin-left:30px; }
+.tablechildright { display:flex; flex-direction: column; width:70%;
+    justify-content: space-evenly; }
+.mytable {
+    display:flex; 
+    
+    margin-top:10px; margin-bottom:10px;  background-color: rgb(28, 28, 60);}
+
+
+.table {margin-left:10px; margin-right:10px; }
+
+.mytable,.piechart{
+    height:300px; 
+}
+
+/* .highlight:hover {height:150%; } */
+/* .corereport:hover {width:270px; height: 270px; transition-duration: 1s;} */
+/* .rightfirstmaincube:hover { background-color: rgb(43, 117, 47);
+width:300px; height:300px; transition-duration: 1s;} */
+
+
+.rightsecond {height:20px; background-color: rgb(59, 159, 64);}
+.rightsecond:hover { background-color: rgb(43, 117, 47);}
+
+.boxtext {color:transparent; font-size: 14px; padding-left: 60px;}
+.boxtext:hover {color:aliceblue; position:relative; left:90px;
+    font-size: 18px;
+transition-duration: 0.4s;}
+
+.coremain {display: flex; justify-content: space-evenly;}
+
+.screendot {display: flex; flex-direction: column; 
+    justify-content: space-between;}
+
+
+.lastmain { display:flex; 
+        justify-content: space-between;
+        margin-top:50px;
+}
+
+.circlechart1 {
+    height:150px; width:150px; border-radius: 50%;
+    background-color:  rgb(161, 203, 139);
+    margin-left:20px;
+}
+.circlechart2 {
+    height:270px; width:270px; border-radius: 50%;
+    background-color: rgb(66, 152, 69);
+    
+}
+.circlechart2:hover {
+    height:370px; width:370px; border-radius:50%;
+    background-color:  rgb(255, 255, 255);
+    position: relative; top:100px; left:100px;
+    transition-duration: 2s;
+    transition-delay: 0.3s;
+}
+.circlechart3 {
+    height:240px; width:240px; border-radius: 50%;
+    background-color: rgb(66, 106, 152);
+    margin-right:15px;
+}
+
+.iputbootstrap, .bootstraptable {  
+    padding-left:70px;
+    width:80%; 
+    padding-top:10px;
+    }
+
+    

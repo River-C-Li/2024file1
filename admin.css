@@ -1,0 +1,135 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(161, 203, 139); font-size: 20px;
+    
+}
+body {
+    width:100%;
+    height:auto;
+    
+}
+nav,.fourscreen,  .main, .firstmain,
+.rightfirstmain, .secondmain, .lastmain {
+    display:flex;
+}
+nav {height:70px; display: flex;
+}
+.navleft { display:flex; gap:20px; align-items: center; margin-left:30px;}
+.navright { display:flex; gap:20px; align-items: center;
+    margin-left:auto;
+}
+.navehover:hover, .heading:hover {color:  rgb(140, 127, 67);}
+
+#logo{
+    border-radius: 50%;
+    width:50px; height:50px;
+    background-color: rgb(140, 127, 67);
+    margin-right:30px;
+}
+.fourscreen {
+    display:flex; flex-wrap:wrap; justify-content: space-around;  align-items: center;
+    width:100%; height:auto; padding-top:10px; 
+    padding-bottom:10px; background-color: rgb(49, 52, 77);
+}
+.screen {display:flex; 
+    justify-content: space-evenly; flex-direction: column;
+    height:auto; padding-top:30px; padding-bottom:50px; 
+    width:24%;  min-width:300px;
+}
+.screen:hover, .mytable:hover, .piechart:hover, #chart:hover,
+ .secondmainone:hover, .secondmaintwo:hover, .rightsecondmain:hover {
+    background-color: rgb(35, 35, 80);
+}
+
+.screendot {display:flex; justify-content: space-evenly;}
+.dotsingle {width:30px; height:30px; border-radius: 50%;
+    border:1px solid rgb(111, 139, 97);
+}
+.dotsingle:hover {
+    box-shadow:4px 3px  15px rgb(161, 203, 139);
+    border:2px solid rgb(161, 203, 139);
+}
+p {text-align: center;}
+
+.allmain {display: flex; flex-wrap:wrap; }
+
+.rightside { display:flex; justify-content: flex-start; 
+    flex-direction: column; width:24.5%; min-width:300px;
+    background-color: rgb(49, 52, 77);
+}
+
+.highlight {display: flex; flex-direction: column;  align-items: center;}
+.corereport {width:200px; height:200px; border-radius: 50%;
+background-color: rgb(110, 65, 152);}
+.main {display: flex; flex-direction:column; 
+    background-color: rgb(49, 52, 77);
+    width:75.5%; height:auto;  min-width:610px; 
+}
+.firstmain { display:flex; 
+    justify-content: space-around;
+    
+    width:100%; min-width:610px; height: 300px; }
+
+.secondmain, .lastmain { display:flex; 
+    justify-content: space-around;
+   
+    width:100%; height:300px; 
+}
+#chart { width:32%; height:300px; margin-left:20px;}
+
+.leftsecondmain {
+    display:flex; justify-content: space-around; 
+    flex-direction: column;
+    }
+
+.rightfirstmain {display:flex; flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+    min-width:400px;
+     width:68%;}
+
+.rightfirstmaincube{
+    width:100px; height:100px; background-color: rgb(161, 203, 139);
+}
+
+.secondmain {display:flex; flex-wrap:wrap; space-evenly; min-width:610px;
+margin-top:10px; margin-bottom:10px;}
+.leftsecondmain { width:67%; height:300px; 
+    display: flex; flex-direction:column; justify-content: space-between; }
+.secondmainone, .secondmaintwo {
+    background:  rgb(28, 28, 60);
+    height:135px;  margin-left:10px;}
+
+.rightsecondmain {width:31%; display:flex; align-items: end;
+justify-content: space-evenly; }
+
+ .rightfirstmaincube,.highlight {
+    background-color: rgb(161, 203, 139);
+}
+
+nav,.screen, .mytable,.piechart,
+.secondmainone, .rightsecondmain
+ {
+    background-color: rgb(28, 28, 60);
+}
+.mytable {margin-top:10px; margin-bottom:10px;  background-color: rgb(28, 28, 60);}
+
+.table {margin-left:10px; margin-right:10px; }
+
+.highlight,.mytable,.piechart, .rightsecondmain, .lastmain {
+    height:300px; 
+}
+
+.highlight:hover {height:150%; }
+.corereport:hover {width:270px; height: 270px; transition-duration: 1s;}
+.rightfirstmaincube:hover { background-color: rgb(43, 117, 47);
+width:300px; height:300px; transition-duration: 1s;}
+
+
+.rightsecond {width:50px; background-color: rgb(59, 159, 64);}
+.rightsecond:hover { background-color: rgb(43, 117, 47);}
+
+.boxtext {color:transparent; font-size: 16px; padding-bottom: 90px;}
+.boxtext:hover {color:aliceblue; position:relative; top:-35px;
+    font-size: 22px;
+transition-duration: 0.4s;}
