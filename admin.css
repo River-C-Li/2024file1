@@ -8,11 +8,12 @@ body {
     height:auto;
     
 }
-nav,.fourscreen,  .main, .firstmain,
+nav,.fourscreen, .main, .firstmain,
 .rightfirstmain, .secondmain, .lastmain {
-    display:flex;
+display:flex;
 }
-nav {height:70px; display: flex;
+nav {
+height:70px; display: flex;
 }
 .navleft { display:flex; gap:20px; align-items: center; margin-left:30px;}
 .navright { display:flex; gap:20px; align-items: center;
@@ -112,7 +113,8 @@ nav,.screen, .mytable,.piechart,
  {
     background-color: rgb(28, 28, 60);
 }
-.mytable {margin-top:10px; margin-bottom:10px;  background-color: rgb(28, 28, 60);}
+.mytable {margin-top:10px; margin-bottom:10px;  
+          background-color: rgb(28, 28, 60);}
 
 .table {margin-left:10px; margin-right:10px; }
 
